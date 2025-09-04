@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register here</title>
+</head>
+<body>
+ <h1>Register here</h1>
+ <form name="register" method="post" action="register.js">
+    <Label for="name">Name:</Label>
+    <input type="text" name="uname" placeholder="Enter user Name" required/><br/>
+    <Label for="mobile">Mobile Number:</Label>
+    <input type="number" name="mobile" placeholder="Enter user MONO" required/><br/>
+    <Label for="email">Email:</Label>
+    <input type="email" name="email" placeholder="Enter user Email" required/><br/>
+    <Label for="dob">Date of birth:</Label>
+    <input type="date" name="dob"/><br/>
+    <Label for="name">Gender:</Label>
+    <input type="radio" name="gender" value="M"/>Male
+    <input type="radio" name="gender" value="F"/>Female
+    <br/>
+    <Label for="address">Address:</Label>
+    <textarea rows="5" cols="50">
+        Enter your current Address
+    </textarea>
+    <br/>
+    <Label for="address">Branch:</Label>
+    <select name="branch">
+        <option value="cse">CSE</option>
+        <option value="cse-aiml">CSE-AIML</option>
+        <option value="cse-ds">CSE-DS</option>
+        <option value="cs">CS</option>
+        <option value="ece">ECE</option>
+    </select><br/>
+    <label for="sem">Sem:</label>
+    <select name="sem">
+        <option value="1">I</option>
+        <option value="3">III</option>
+        <option value="5">V</option>
+        <option value="7">VII</option>
+    
+    </select><br/>
+    <input type="submit" value="Register Here"/>
+    <input type="reset" value="Reset"/>
+ </form> 
+</body>
+</html>
