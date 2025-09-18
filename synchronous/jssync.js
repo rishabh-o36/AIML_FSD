@@ -12,6 +12,7 @@ function login(){
 }
 function getData(){
     waitforfiveseconds();
+    
  console.log('get Data end')   
 }
 function displayData(){
