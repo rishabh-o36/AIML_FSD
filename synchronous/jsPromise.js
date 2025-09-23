@@ -49,7 +49,7 @@ register()
 .then(sendEmail)
 .then(login) 
 .then(getData)
-.then(displayData)
+.then(displyData)
 .catch((err)=>{
     console.log('Error = ' + err)
 })
