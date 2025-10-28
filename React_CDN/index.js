@@ -1,4 +1,3 @@
-// Inject simple styles for a better look
 const styles = `
     body { font-family: Inter, Roboto, Arial, sans-serif; background:#f4f6f8; margin:0; padding:20px; color:#222; }
     .app { max-width:1100px; margin:0 auto; }
@@ -21,7 +20,6 @@ const styleEl = document.createElement('style');
 styleEl.textContent = styles;
 document.head.appendChild(styleEl);
 
-// Card component (React.createElement style)
 function Card(props) {
         const image = React.createElement('img', {
                 src: props.image || "https://img.freepik.com/premium-photo/book-library-with-old-open-textbook-stack-piles-literature-text-archive-reading-desk_779468-5822.jpg?w=2000",
